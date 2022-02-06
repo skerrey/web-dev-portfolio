@@ -1,0 +1,24 @@
+/*
+============================================
+; Title: Personal Portfolio
+; File Name: projects.css
+; Author: Professor Krasso
+; Date: 6 February 2022
+; Modified By: Seth Kerrey
+; Description: 
+;   Styling for the projects.html file.
+; Resources: 
+;   CSS style, classes, and id's came from guidance in the assignment instructions, 
+;   style guide & buwebdev repo/web-330
+;       https://github.com/buwebdev/web-330 
+;       "WEB 330 HTML, CSS, and JavaScript Requirements.pdf"
+===========================================
+*/
+
+#projects-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 20px;
+}
