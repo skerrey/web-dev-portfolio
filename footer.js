@@ -24,7 +24,7 @@ class Footer extends HTMLElement {
         this.innerHTML = `
             <div id="footer">
                 <p>
-                    Copyright &copy; 2021 <a href="#">Bellevue University</a>
+                    Copyright &copy; 2022 <a href="#">Seth Kerrey</a>
                 </p>
             </div>
         `;
