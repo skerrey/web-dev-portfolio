@@ -333,3 +333,9 @@ h2, h3, h4 {
 .card-content {
     padding-bottom: 10px;
 }
+
+#quick-links {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
