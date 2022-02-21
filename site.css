@@ -41,7 +41,7 @@ body {
     text-align: center;
     font-weight: 400;
     border: none;
-    color: inherit;
+    color: white;
     background-color: inherit;
 }
 
@@ -184,10 +184,8 @@ body {
 }
 
 .header {
-    background-color: #436AE8;
-    height: 68px;
+    height: 70px;
     font-size: 20px;
-    border-bottom: 5px solid black;
 }
 
 .header-logo {
@@ -206,6 +204,14 @@ body {
 }
 
 body {
-    background-image: url("img/background/background.jpg");
-    height: 100vh;
+    background-image: url("img/background/background.jpg"); /* Background vector created by freepik */
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+.modal-button {
+    background-color:white !important;
+    color: blue !important;
+}
+

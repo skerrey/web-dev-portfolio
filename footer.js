@@ -25,21 +25,21 @@ class Footer extends HTMLElement {
         <div class="container mt-5" id="Quick Links">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">
+                    <h2 class="text-center text-white">
                         Explore More
                     </h2>
                     <ul class="d-flex justify-content-around" style="list-style-type: none;">
                         <li>
-                            <a href="https://github.com/skerrey?tab=repositories" target="_blank">GitHub Repositories</a>
+                            <a class="btn btn-primary" href="https://github.com/skerrey?tab=repositories" target="_blank">GitHub Repositories</a>
                         </li>
                         <li>
-                            <a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue Web Development Degree</a>
+                            <a class="btn btn-primary" href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue Web Development Degree</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">Bellevue Web Development YouTube</a>
+                            <a class="btn btn-primary" href="#" target="_blank">Bellevue Web Development YouTube</a>
                         </li>
                         <li>
-                            <a href="https://github.com/buwebdev/" target="_blank">buwebdev Repository</a>
+                            <a class="btn btn-primary" href="https://github.com/buwebdev/" target="_blank">buwebdev Repository</a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@ class Footer extends HTMLElement {
             </div>
             <div class="row" id="footer">
                 <div class="col-md-12">
-                    <p class="text-center font-italic">
+                    <p class="text-center font-italic text-white">
                         Copyright &copy; 2022 <a href="mailto:skerrey@my365.bellevue.edu">Seth Kerrey</a>
                     </p>
                 </div>
