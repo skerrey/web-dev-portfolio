@@ -22,41 +22,35 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-            
-    
-        <div class="d-flex justify-content-between flex-row-reverse">
-            <div class="pr-5 pt-5" style="font-size:2em;">Seth Kerrey's Portoflio</div>
-            <img src="./img/logo_100x100.png" alt="logo" class=" pt-2 img-fluid">
+        <div class="header">
+            <div class="header-logo">
+                <img src="img/test.png" alt="header logo" height="70" width="70">
+            </div>
+
+            <ul class="navbar nav justify-content-end pr-5 pt-4">
+                <li class="nav-link active">
+                    <a href="./">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li class="nav-link">
+                    <a href="database-diagrams.html">Database Diagrams</a>
+                </li>
+                <li class="nav-link">
+                    <a href="api-unit-tests.html">API Unit Tests</a>
+                </li>
+                <li class="nav-link">
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li class="nav-link">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
         </div>
-
-
-        <ul class="navbar nav justify-content-end pr-5 nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" id="home-tab" href="./">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="project-tab" href="projects.html" onclick="$('#second_tab').trigger('click')">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="database-tab" href="database-diagrams.html">Database Diagrams</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="api-tab" href="api-unit-tests.html">API Unit Tests</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="resume-tab" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="about-tab" href="about.html">About</a>
-            </li>
-        </ul>
+        
         `;
     }
 }
 
 customElements.define("header-component", Header);
-
-$(".nav .nav-link").on("click", function(){
-    $(".nav").find(".active").removeClass("active");
-    $(this).addClass("active");
- });
