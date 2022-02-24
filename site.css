@@ -183,15 +183,14 @@ body {
     padding-bottom: 10px;
 }
 
+/* header */ 
 .header {
     height: 70px;
     font-size: 20px;
 }
 
 .header-logo {
-    width: 50px;
-    height: 50px;
-    position: absolute;
+    float: left;
     padding-left: 10px;
 }
 
@@ -200,18 +199,45 @@ body {
 }
 
 .navbar li:hover {
-    border-bottom: 5px solid black;
+    border: 5px solid transparent;
+    border-radius: 5px;
 }
 
+.navbar li a:hover {
+    text-decoration: none;
+}
+
+/* Landing page div */
+.intro-div {
+    color: white;
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+/* body image */
 body {
-    background-image: url("img/background/background.jpg"); /* Background vector created by freepik */
+    background-image: url("img/background/background.svg"); /* Background vector created by freepik */
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw auto;
 
 }
 
+/* Modal Settings */
 .modal-button {
     background-color:white !important;
     color: blue !important;
 }
 
+.modal-footer-li {
+    color: black;
+    font-size: 20px;
+    display: inline;
+}
+
+.modal-footer-li:hover {
+    cursor: pointer;
+    color: blue;
+}
