@@ -222,7 +222,7 @@ body {
     background-image: url("img/background/background.svg"); /* Background vector created by freepik */
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100vw auto;
+    background-size: cover;
 
 }
 
