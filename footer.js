@@ -36,7 +36,7 @@ class Footer extends HTMLElement {
                             <a class="btn btn-primary" href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/" target="_blank">Bellevue Web Development Degree</a>
                         </li>
                         <li>
-                            <a class="btn btn-primary" href="#" target="_blank">Bellevue Web Development YouTube</a>
+                            <a class="btn btn-primary" href="https://www.youtube.com/user/bellevueuniversity" target="_blank">Bellevue Web Development YouTube</a>
                         </li>
                         <li>
                             <a class="btn btn-primary" href="https://github.com/buwebdev/" target="_blank">buwebdev Repository</a>
