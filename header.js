@@ -24,7 +24,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <div class="header">
             <div class="header-logo">
-                <img src="img/test.png" alt="header logo" height="70" width="70">
+                <a href="./"><img src="img/test.png" alt="header logo" height="70" width="70"></a>
             </div>
 
             <ul class="navbar nav justify-content-end pr-5 pt-4">
