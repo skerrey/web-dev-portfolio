@@ -226,6 +226,8 @@ body {
     width: 50%;
     margin: auto;
     padding-top: 100px;
+    text-decoration: underline;
+    text-decoration-color: #e82279;
 }
 
 /* body image */
