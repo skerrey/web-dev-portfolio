@@ -28,24 +28,36 @@ class Header extends HTMLElement {
             </div>
 
             <ul class="navbar nav justify-content-end pr-5 pt-4">
-                <li class="nav-link active">
-                    <a href="./">Home</a>
-                </li>
-                <li class="nav-link">
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li class="nav-link">
-                    <a href="database-diagrams.html">Database Diagrams</a>
-                </li>
-                <li class="nav-link">
-                    <a href="api-unit-tests.html">API Unit Tests</a>
-                </li>
-                <li class="nav-link">
-                    <a href="resume.html">Resume</a>
-                </li>
-                <li class="nav-link">
-                    <a href="about.html">About</a>
-                </li>
+                <a href="./">
+                    <li class="btn-new btn-new-nav">
+                        Home
+                    </li>
+                </a>
+                <a href="projects.html">
+                    <li class="btn-new btn-new-nav">
+                        Projects
+                    </li>
+                </a>
+                <a href="database-diagrams.html">
+                    <li class="btn-new btn-new-nav">
+                        Database Diagrams
+                    </li>
+                </a>
+                <a href="api-unit-tests.html">
+                    <li class="btn-new btn-new-nav">
+                        API Unit Tests
+                    </li>
+                </a>
+                <a href="resume.html">
+                    <li class="btn-new btn-new-nav">
+                        Resume
+                    </li>
+                </a>
+                <a href="about.html">
+                    <li class="btn-new btn-new-nav">
+                        About
+                    </li>
+                </a>
             </ul>
         </div>
         
