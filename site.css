@@ -121,6 +121,7 @@ body {
     cursor: pointer;
     padding: 15px 32px;
     color: blue;
+    background-color: white;
 }
 
 .btn-new-nav {
@@ -130,6 +131,7 @@ body {
 .btn-new:hover {
     background-color: rgb(0,42,96, 0.3);
     color: white;
+    text-decoration: none;
 }
 
 .btn-new a {
