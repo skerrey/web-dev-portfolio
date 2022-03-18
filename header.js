@@ -38,7 +38,7 @@ class Header extends HTMLElement {
                         Projects
                     </li>
                 </a>
-                <a href="database-diagrams.html">
+                <a href="web-335/kerrey-diagrams.html">
                     <li class="btn-new btn-new-nav">
                         Database Diagrams
                     </li>

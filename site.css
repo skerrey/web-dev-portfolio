@@ -261,3 +261,8 @@ body {
 .card-new a {
     text-decoration: none;
 }
+
+/* Carousel icon */
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
