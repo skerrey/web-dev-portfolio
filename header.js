@@ -40,7 +40,7 @@ class Header extends HTMLElement {
                 </a>
                 <a href="web-335/kerrey-diagrams.html">
                     <li class="btn-new btn-new-nav">
-                        Database Diagrams
+                        Diagrams
                     </li>
                 </a>
                 <a href="api-unit-tests.html">
