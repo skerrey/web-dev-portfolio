@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--
+    ============================================
+    ; Title: Personal Portfolio
+    ; File Name: kerrey-tech-value-stream.html
+    ; Author: Professor Krasso
+    ; Date: 5 29 2022
+    ; Modified By: Seth Kerrey
+    ; Description: 
+    ;   A personal portfolio to showcase projects from Bellevue University.
+    ; Resources:
+    ;   The classes, id's & JavaScript were provided by Prof Krasso and Bellevue University
+    ===========================================
+    -->         
+    <!-- Title of HTML file -->
+    <title>Personal Portfolio - Projects</title>
+    
+    <!-- Links -->
+    <link rel="stylesheet" href="../site.css">
+    <script src="../header.js" async></script>
+    <script src="../footer.js" async></script>
+    <script src="../quick-links.js" async></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CDN font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+</head>
+<body>
+  <div class="header">
+    <div class="header-logo">
+        <a href="./"><img src="../img/test.png" alt="header logo" height="70" width="70"></a>
+    </div>
+
+    <ul class="navbar nav justify-content-end pr-5 pt-4">
+        <a href=".././">
+            <li class="btn-new btn-new-nav">
+                Home
+            </li>
+        </a>
+        <a href="../projects.html">
+            <li class="btn-new btn-new-nav">
+                Projects
+            </li>
+        </a>
+        <a href="../web-335/kerrey-diagrams.html">
+            <li class="btn-new btn-new-nav">
+                Diagrams
+            </li>
+        </a>
+        <a href="../api-unit-tests.html">
+            <li class="btn-new btn-new-nav">
+                API Unit Tests
+            </li>
+        </a>
+        <a href="./kerrey-tech-value-stream.html">
+            <li class="btn-new btn-new-nav">
+                DevOps
+            </li>
+        </a>
+        <a href="../resume.html">
+          <li class="btn-new btn-new-nav">
+              Resume
+          </li>
+      </a>
+        <a href="../about.html">
+            <li class="btn-new btn-new-nav">
+                About
+            </li>
+        </a>
+    </ul>
+</div>
+
+<div class="assign-container d-block">
+    <h1 class="app-header">Welcome to the DevOps Page.</h1>
+    <div class="assign-content">
+        <div class="card">
+            <div class="card-title">
+                DevOps
+            </div>
+
+            <div class="card-content grid-container-devops">
+
+                <div class="card-new">
+                    <a id="modal-1-2" href="#modal-container-1-2" data-toggle="modal" style="text-decoration:none;">
+                    <div class="card-title">
+                        Presentation - 1.2<br>
+                        The Technology Value Stream
+                    </div>
+                    <div class="card-content">
+                        <img src="../devops-presentations/kerrey-presentation1.2.gif" alt="presentation 1.2">
+                    </div>
+                    </a>
+                
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-container-1-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="myModalLabel">
+                                        Presentation 1.2 | <span style="">The Technology Value Stream</span>
+                                    </h5> 
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <!-- Video -->
+                                    <video controls autoplay reload="none" class="embed-responsive embed-responsive-16by9">
+                                        <source src="../devops-presentations/kerrey-presentation1.2.mp4" type="video/mp4" />
+                                        </video> 
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card-new">
+                    <img src="../devops-presentations/coming-soon.png" alt="">
+                </div>
+                <div class="card-new">
+                    <img src="../devops-presentations//coming-soon.png" alt="">
+                </div>
+                <div class="card-new">
+                    <img src="../devops-presentations//coming-soon.png" alt="">
+                </div>
+                <div class="card-new">
+                    <img src="../devops-presentations//coming-soon.png" alt="">
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer-component></footer-component>
+
+<!-- jQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- jQuery MouseWheel addon -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="../js/kerrey-tech-value-stream.js" async></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

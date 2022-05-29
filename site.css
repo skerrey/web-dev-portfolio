@@ -166,6 +166,26 @@ body {
     box-sizing: border-box;
 }
 
+/* ---------------------------------- DevOps --------------------------------- */
+.grid-container-devops {
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+    grid-template-columns: repeat(auto-fill,minmax(auto,1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(auto,1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+
+.card-new-devops {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 1% 1%;
+    padding: 10px;
+
+}
 /* ---------------------------------- NEW css --------------------------------- */
 
 /* Grid */
