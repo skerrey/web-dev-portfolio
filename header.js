@@ -48,7 +48,7 @@ class Header extends HTMLElement {
                         API Unit Tests
                     </li>
                 </a>
-                <a href="web-430/kerrey-tech-value-stream.html">
+                <a href="web-430/kerrey-devops.html">
                     <li class="btn-new btn-new-nav">
                         DevOps
                     </li>
